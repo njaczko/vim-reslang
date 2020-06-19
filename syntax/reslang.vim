@@ -12,6 +12,7 @@ syn region Comment start="/[*]" end="[*]/"
 syn match Comment "//.*$"
 
 " fields
+" TODO right now this matches UserOrgPermissions::check but it shouldn't
 syn match Keyword "[A-Za-z-]\+:"
 
 " TODO look at the reslang pretty-print html thing that mcv wrote. are all the
@@ -24,13 +25,15 @@ syn match Type "\<request-resource\>"
 syn match Type "\<configuration-resource\>"
 syn match Type "\<asset-resource\>"
 " TODO word can't start with "/"... halp
-syn match Type "\</operations\>"
+" instead, how about  \s+/operations$
+syn match Type "\<[/]operations\>"
 syn match Type "\</header\>"
 syn match Type "\</payload\>"
 "
 " TODO these get the Special highlight instead of the regular field highlight
 " (because this is called after the fields match is added) should they just
 " have the regular field highlighting? will they ever appear outside of fields?
+" TODO include example?
 syn keyword Special linked queryonly query mutable output
 syn match Special "\<max-length\>"
 syn match Special "\<min-length\>"
