@@ -24,7 +24,7 @@ syn keyword events produces consumes event
 syn match events "^\s*\/header\s*$"
 syn match events "^\s*\/payload\s*$"
 
-syn keyword modifiers linked queryonly query mutable output example representation
+syn keyword modifiers linked queryonly query mutable output example representation default
 syn match modifiers "\<max-length\>"
 syn match modifiers "\<min-length\>"
 syn match modifiers '\<optional-get\>\|
