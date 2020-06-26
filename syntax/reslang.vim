@@ -5,7 +5,7 @@ syn match Comment "//.*$"
 
 syn match Number "\<\d\+\>"
 
-syn match Type "^\s*\/operations\s*$"
+syn match Keyword "^\s*\/operations\s*$"
 
 syn keyword namespace namespace title version
 
@@ -34,10 +34,10 @@ syn match modifiers '\<optional-get\>\|
 
 syn keyword operations GET MULTIGET POST PUT PATCH DELETE EVENTS
 
-hi def link namespaces Type
+hi def link namespaces Keyword
+hi def link structures Keyword
+hi def link definitions Keyword
+hi def link events Keyword
 hi def link primitiveTypes Type
-hi def link structures Type
-hi def link definitions Type
-hi def link events Type
 hi def link operations Constant
 hi def link modifiers Special
