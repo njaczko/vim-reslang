@@ -13,12 +13,12 @@ syn keyword primitiveTypes int long string double boolean date time datetime url
 
 syn keyword structures structure union enum
 
-" TODO resource-level doesn't get highlighted correctly
-syn keyword definitions bulk future sync async action subresource resource singleton
+syn keyword definitions bulk future sync async action subresource singleton
 syn match definitions '\<resource-level\>\|
       \\<request-resource\>\|
       \\<configuration-resource\>\|
-      \\<asset-resource\>'
+      \\<asset-resource\>\|
+      \\<resource\>'
 
 syn keyword events produces consumes event
 syn match events "^\s*\/header\s*$"
