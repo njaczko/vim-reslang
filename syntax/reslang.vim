@@ -9,7 +9,7 @@ syn match Keyword "^\s*\/operations\s*$"
 
 syn keyword namespace namespace title version
 
-syn keyword primitiveTypes int long string double boolean date time datetime url uuid
+syn keyword primitiveTypes boolean date datetime double duration int long string time url uuid
 
 syn keyword structures structure union enum
 
