@@ -2,7 +2,7 @@
 
 Syntax highlighting for [Reslang](https://github.com/LiveRamp/reslang).
 
-![Screenshots of Reslang syntax highlighting](https://raw.githubusercontent.com/njaczko/vim-reslang/make-readme-cool/vim-reslang.gif)
+![Screenshots of Reslang syntax highlighting](https://raw.githubusercontent.com/njaczko/vim-reslang/master/vim-reslang.gif)
 
 ## Installation
 
