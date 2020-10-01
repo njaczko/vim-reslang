@@ -6,8 +6,12 @@ syn match Comment "//.*$"
 syn match Number "\<\d\+\>"
 
 syn match Keyword "^\s*\/operations\s*$"
+syn match Keyword "^\s*\/REST\s*$"
+syn match Keyword "^\s*\/events\s*$"
 
-syn keyword namespace namespace title version
+syn keyword namespaces namespace title version
+
+syn keyword serverBlocks servers server environment protocol
 
 syn keyword primitiveTypes boolean date datetime double duration int long string time url uuid
 
@@ -35,6 +39,7 @@ syn match modifiers '\<optional-get\>\|
 syn keyword operations GET MULTIGET POST PUT PATCH DELETE EVENTS
 
 hi def link namespaces Keyword
+hi def link serverBlocks Keyword
 hi def link structures Keyword
 hi def link definitions Keyword
 hi def link events Keyword
