@@ -2,7 +2,7 @@
 
 Syntax highlighting for [Reslang](https://github.com/LiveRamp/reslang).
 
-![Screenshots of Reslang syntax highlighting](https://raw.githubusercontent.com/njaczko/public/master/vim-reslang.gif)
+![Screenshots of Reslang syntax highlighting](https://raw.githubusercontent.com/njaczko/njaczko/master/assets/vim-reslang.gif)
 
 I intend to keep this plugin up to date when new features are added to Reslang. Open an issue if something is missing!
 
