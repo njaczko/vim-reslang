@@ -1,10 +1,12 @@
+**THIS REPO HAS BEEN ARCHIVED. At the time of archiving, most of the syntax
+highlighting still works. However, I am no longer committed to keeping up with
+new Reslang features and fixing bugs**
+
 # vim-reslang
 
 Syntax highlighting for [Reslang](https://github.com/LiveRamp/reslang).
 
 ![Screenshots of Reslang syntax highlighting](https://raw.githubusercontent.com/njaczko/njaczko/master/assets/vim-reslang.gif)
-
-I intend to keep this plugin up to date when new features are added to Reslang. Open an issue if something is missing!
 
 ## Installation
 
